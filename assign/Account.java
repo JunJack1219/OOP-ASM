@@ -89,7 +89,6 @@ public class Account{
         }else{
             this.contact = "";
         }
-        System.out.println(this.contact);
     }
 
     public String geteContact() {
@@ -97,7 +96,6 @@ public class Account{
     }
 
     public void seteContact(String eContact) {
-        System.out.println("seteContact() called with: " + eContact);
         String mContactFormat = "+6";
         if (eContact != null && !eContact.trim().isEmpty()) {
             String trimmedEContact = eContact.trim(); //trim down the contact input, if confirm no empty input
@@ -110,7 +108,6 @@ public class Account{
         }else{
             this.eContact = "";
         }
-        System.out.println("contact attribute is now: " + this.eContact);
     }
     
 //    //Method
